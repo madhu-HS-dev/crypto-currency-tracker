@@ -1,0 +1,120 @@
+/* Write your CSS code here */
+.crypto-currency-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 575px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+}
+
+.cryptocurrency-image {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 575px) {
+  .cryptocurrency-image {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cryptocurrency-image {
+    width: 650px;
+  }
+}
+
+.coins-card-container {
+  border: solid 4px #00e7ff;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.header {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.currency-names-container {
+  display: flex;
+  justify-content: space-between;
+  width: 38%;
+}
+
+@media screen and (min-width: 576px) {
+  .currency-names-container {
+    width: 33%;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
+.usd {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .usd {
+    font-size: 20px;
+  }
+}
+
+.euro {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .euro {
+    font-size: 20px;
+  }
+}
+
+.currency-data-container {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
